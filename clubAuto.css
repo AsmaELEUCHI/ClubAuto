@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family:Open Sans ;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family:Montserrat;
+    font-weight: bold;
+}
+
+header h2{
+    color: #CC6119;
+}
+#navList li :hover{
+    background-color:rgba(173, 228, 238, 0.626);
+}
+figure, #headerImg{
+    min-width: 100vw;
+}
+
+#blogRentBuy{
+    position: relative;
+}
+
+#blogRent{
+    background-color: #fab637a1;
+    position: absolute;
+    width: 25%;
+    top: 50%;
+    left:20%;
+    padding: 1%;
+  
+    
+}
+
+
+#blogBuy{
+    background-color: #ff4848b5;
+    position: absolute;
+    width: 25%;
+    top: 50%;
+    left:60%;
+    padding: 1%;
+   
+}
+
+#blogBuy a:hover{
+    background-color: #cc1946;
+}
+#blogRent a:hover{
+    background-color: #fab637a1;
+}
+
+
+.card{
+    background-color: rgba(139, 137, 137, 0.598);
+    color:white;
+}
+.card-body :last-child{
+    width: 30%;  
+}
+
+#contactButton a{
+    background-color: rgb(110, 158, 247);
+    width: 10%;
+}
+#contactButton a:hover{
+    background-color: #CC6119;
+}
+
+#blogContent{
+    position: relative;
+    
+}
+
+#blog{
+    background-color: #fab637a1;
+    position: absolute;
+    top:50%;
+    left:200px;
+    width: 110%;
+    padding: 5%;
+    border-radius: 5px;
+    
+}
+
+#socialNetworks a{
+    background:#414040;
+    padding:2% 4%;
+}
+
+#socialNetworks a:hover{
+    background-color: #CC6119;
+}
+
+#tags a{
+    background:#414040; 
+    padding:2% 4%
+}
+#tags a:hover{
+    background-color: #CC6119;
+}
+
+#copyright{
+    border-top: 0.1em solid rgb(101, 100, 100);
+    text-align: center;
+}
+
+#pageContent{
+    background: url(/images/vehicule3.jpg) center center / cover no-repeat fixed;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pageContact{
+    background-color: white;
+    box-shadow: 2px 6px 25px rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 40px;
+    width: 80%;
+     
+}
+#pageContact{
+    height: 50%;
+    }
+#message{
+    height: 150px;
+}
+
+
+@media screen and (max-width: 576px) {
+    #companyName, #companyAdress, #openingHours, #socialNetworks, #headerImg {
+      display: none;
+    }
+    #navbarSection{
+        position:absolute;
+        top: 2%;
+        
+    }
+    #navbarContent{
+        background-color: aliceblue;
+        margin-top: 10%;
+        width: 100vw;
+   
+    }
+    #contactButton a{
+        width: auto;
+    }
+    #blog{
+        
+        width: 100vw;
+        padding: 10% 5%;
+        top:0;
+        bottom: 0;
+        left:0;
+    }
+    
+    #blogRent{
+        height: 50%;
+        width: auto;
+        top: 150px;
+        bottom: 1px;
+        
+        left:0px;
+    }
+    #blogBuy{
+        height: 50%;
+        width: auto;
+        top: 0;
+        bottom: 1px;
+        
+        left:0px;  
+    }
+    #copyright{
+        text-align: start;
+    }
+
+
+#pageContact{
+    height: 95%;
+    }
+
+    #message{
+        height: 150px
+    }
+
+  }
+
+
+
+
+
+
+
+
