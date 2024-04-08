@@ -89,8 +89,47 @@
         </section>
          <!--nav bar -->
     </header>
+<!--form section -->
+<section id="pageContent">
+    <div id="pageContact">
+        <h1 class="text-uppercase">contactez nous</h1>
+        <form action="#">
+            <div class="d-lg-flex">
 
+                <div class="form-group col-lg-8">
+                    <div class="d-lg-flex">
+                        <div class="col-12 col-lg-5 m-4">
+                            <label for="prenom">Prénom*</label>
+                            <input type="text" class="form-control" name="prenom" id="prenom" placeholder="Entrez votre prénom" required>
+                        </div>
+                        <div class="col-12 col-lg-5 m-4">
+                            <label for="nom">Nom*</label>
+                                <input type="text" class="form-control" name="nom" id="nom" placeholder="Entrez votre nom"required>
+                        </div>
+                    </div>
+                    <div class="d-lg-flex">
+                        <div class="col-12 col-lg-5 m-4">
+                            <label for="email">Email*</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Entrez une adresse mail valide"required>
+                        </div>
+                        <div class="col-12 col-lg-5 m-4">
+                            <label for="phoneNum">Téléphone</label>
+                            <input type="text" class="form-control" name="phoneNum" id="phoneNum" placeholder="Phone number">
+                        </div>
+                    </div>
+                </div>
     
+                <div class="form-group col-12 col-lg-3 m-4">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" name="message" id="message" placeholder="Ecrivez votre message"></textarea>
+                    <button type="submit" class="btn btn-primary mt-3">Envoyer</button>
+                </div>
+                    
+            </div>
+        </form>  
+    </div>
+</section>
+ <!--form section -->   
 
 </body>
 </html>
